@@ -1,6 +1,7 @@
 import { useState } from "react";
 import api from "../api.js";
 import { toast } from "react-toastify";
+import {Link} from "react-router-dom"
 
 const Login = () => {
   const [email, setEmail] = useState("");
@@ -69,9 +70,9 @@ const Login = () => {
         </form>
         <p className="text-center text-sm text-gray-600 mt-4">
           Don&apos;t have an account?{" "}
-          <a href="/register" className="text-blue-600 font-medium">
+          <Link href="/register" className="text-blue-600 font-medium">
             Sign up
-          </a>
+          </Link>
         </p>
       </div>
     </div>
