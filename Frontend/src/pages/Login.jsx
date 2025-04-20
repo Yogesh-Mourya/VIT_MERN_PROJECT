@@ -70,7 +70,7 @@ const Login = () => {
         </form>
         <p className="text-center text-sm text-gray-600 mt-4">
           Don&apos;t have an account?{" "}
-          <Link href="/register" className="text-blue-600 font-medium">
+          <Link to={'/register'} className="text-blue-600 font-medium">
             Sign up
           </Link>
         </p>
